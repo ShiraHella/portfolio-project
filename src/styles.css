@@ -81,8 +81,9 @@ p {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 10px 20px;
 }
+
 .content-container h1 {
   font-size: 64px;
   line-height: 80px;
@@ -187,7 +188,6 @@ footer .social-links a:hover {
   }
 
   .hero {
-    background: var(--secondary-color);
     text-align: center;
   }
   .project-description {
