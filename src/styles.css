@@ -36,6 +36,18 @@ p {
   color: var(--default-text-color);
 }
 
+.logo {
+  max-width: 150px;
+}
+
+.active {
+  color: var(--branding-color) !important;
+}
+
+.nav-item {
+  padding: 0 40px;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
