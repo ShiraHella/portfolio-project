@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #3e347f;
+  --secondary-color: #dfdcee;
   --default-text-color: #272142;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -58,7 +58,9 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
+  background-color: #dfdcee;
+  background-image: linear-gradient(180deg, #dfdcee 1%, #3e347f 100%);
+
   text-align: center;
   padding: 80px 20px;
 }
@@ -125,6 +127,15 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.contact-links {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.contact-links:hover {
+  color: var(--secondary-color);
 }
 
 footer {
