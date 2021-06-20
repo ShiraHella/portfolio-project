@@ -40,6 +40,11 @@ p {
   color: var(--default-text-color);
 }
 
+.profile-picture {
+  border: 10px solid var(--secondary-color);
+  border-radius: 20px;
+}
+
 .logo {
   max-width: 150px;
 }
